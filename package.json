@@ -1,16 +1,13 @@
 {
-  "name": "sample-node-project",
-  "version": "1.0.0",
-  "description": "Sample Node.js Project",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Adem Cemil YALCIN",
-  "license": "ISC",
-  "dependencies": {
-    "express":"latest",
-    "ejs":"latest"
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "First Last <first.last@example.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1"
+    }
   }
-}
